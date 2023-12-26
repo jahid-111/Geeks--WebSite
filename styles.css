@@ -1,5 +1,6 @@
 
-body{
+.bodys{
+    background-color: rgb(226, 230, 237);
     font-family: 'Poppins',  sans-serif;
 }
 .headSpan {
@@ -15,6 +16,14 @@ main{
 margin-top: -80px;
 
 }
+
+.background{
+     
+background: #ba7bf9;
+}
+
+
+
 .sectionTwo{
-    margin-top: 110px;
+    margin-top: 100px;
 }
