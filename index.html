@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- FONT AWESOME  -->
+    <script src="https://kit.fontawesome.com/8963cce665.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Bootstrap demo</title>
     
     <!-- BS LINK  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -18,6 +22,7 @@
 <body class="bg-body-tertiary">
 
     <header class=" d-flex flex-column flex-column-reverse flex-md-row">
+
         <section  class="p-5 d-flex justify-content-center flex-column  col-md-6">
             <div>
                 <h2 class="fs-1 fw-bold">
@@ -30,10 +35,22 @@
             </div>
 
             <div class="text-black">
-                <button class="btn fw-medium btn-outline-secondary mt-2 py-2 px-3">React Demo</button>
+                <button class="btn fw-medium btn-outline-secondary mt-2 py-2 px-3" style="margin-right: 10px;">React Demo</button>
                 <button class="btn fw-medium btn-outline-secondary mt-2 py-2 px-3">Next js Demo</button>
-                <button class="btn  text-secondary fw-medium btn-outline-warning d-block mt-2 py-2 px-4">Buy Now</button>
+                <button class="btn btn-dark text-secondary fw-medium btn-outline-warning d-block mt-3 py-2 px-3">
+
+                    <span>
+                        <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                    </span>
+                    Buy Now 
+                    <span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
             </div>
+
+            <!-- DUE STYLE  -->
+            <p class="mt-4 fw-medium text-muted "> <span class="bg-body-secondary rounded p-1"><i class="fa-solid fa-star" style="color: #d7ab09;"></i> 5.0</span> Over <span class="fw-bold">220+</span> developers used Geeks React.</p>
 
         </section>
 
@@ -44,6 +61,100 @@
         </section>
 
     </header> 
+
+
+
+
+    <main class=" mx-auto">
+
+        <section class=" d-flex flex-column justify-content-center flex-md-row gap-5">
+
+            <div class="bg-body-secondary  rounded col-md-5 my-2 p-4 m">
+                <!-- Product - One  -->
+                 <img class="img-fluid project mb-5 shadow-lg rounded" src="img/main1.jpg" alt="">
+         
+                <div class="text-secondary">
+                    <h2 class="mb-3 text-black fw-bold">Course Design.</h2>
+                    <p class="mb-4">When setting up a site or app for your university or school, Geeks courses and education template is an ideal tool to start.</p>
+                    <hr>
+                   <div class="gap-3 d-flex">
+                        <span class="border p-3 rounded  border-dark">
+                            <i class="fa-brands fa-react"></i>
+                        </span>
+                        <span class="border p-3  border-dark rounded">
+                            <i class="fa-brands fa-node-js"></i>
+                        </span>
+                   </div>
+                </div>
+            </div>
+
+            <div class="bg-body-secondary  rounded col-md-5 my-2 p-4 m">
+                <!-- Product - TWO  -->
+                 <img class="img-fluid project mb-5 shadow-lg rounded" src="img/main2.jpg" alt="">
+         
+                <div class="text-secondary">
+                    <h2 class="mb-3 text-black fw-bold">Admin Dashboard.</h2>
+                    <p class="mb-4">Dashboard is designed to be the perfect starting point for sites focused on analytics, data-heavy application, or admin tools.</p>
+                    <hr>
+                   <div class="gap-3 d-flex">
+                        <span class="border p-3 rounded  border-dark">
+                            <i class="fa-brands fa-react"></i>
+                        </span>
+                        <span class="border p-3  border-dark rounded">
+                            <i class="fa-brands fa-node-js"></i>
+                        </span>
+                   </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sectionTwo d-flex flex-column justify-content-center flex-md-row gap-5">
+
+            <div class="bg-body-secondary  rounded col-md-5 my-2 p-4 m">
+                <!-- Product - THREE  -->
+                 <img class="img-fluid project mb-5 shadow-lg rounded" src="img/main3.jpg" alt="">
+         
+                <div class="text-secondary">
+                    <h2 class="mb-3 text-black fw-bold">Landings.</h2>
+                    <p class="mb-4">High-converting landing page templates & marketing page for developer, digital agency and designer. </p>
+                    <hr>
+                   <div class="gap-3 d-flex">
+                        <span class="border p-3 rounded  border-dark">
+                            <i class="fa-brands fa-react"></i>
+                        </span>
+                        <span class="border p-3  border-dark rounded">
+                            <i class="fa-brands fa-node-js"></i>
+                        </span>
+                   </div>
+                </div>
+            </div>
+
+            <div class="bg-body-secondary  rounded col-md-5 my-2 p-4 m">
+                <!-- Product - FOUR  -->
+                 <img class="img-fluid project mb-5 shadow-lg rounded" src="img/main4.jpg" alt="">
+         
+                <div class="text-secondary">
+                    <h2 class="mb-3 text-black fw-bold">Help Center.</h2>
+                    <p class="mb-4">Beautiful help center page design. Pages like the helpcenter homepage, FAQ, Guides, & support form page.
+
+                    </p>
+                    <hr>
+                   <div class="gap-3 d-flex">
+                        <span class="border p-3 rounded  border-dark">
+                            <i class="fa-brands fa-react"></i>
+                        </span>
+                        <span class="border p-3  border-dark rounded">
+                            <i class="fa-brands fa-node-js"></i>
+                        </span>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
